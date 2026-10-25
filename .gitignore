@@ -5,3 +5,4 @@ results/
 .tmp/
 .DS_Store
 Thumbs.db
+"*.xls*" 
