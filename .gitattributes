@@ -1,0 +1,11 @@
+# Normalize all text files to LF in the repo; checkouts use the platform default.
+* text=auto eol=lf
+
+# Shell scripts and Dockerfiles must stay LF everywhere — CRLF breaks bash.
+*.sh  text eol=lf
+*.Dockerfile text eol=lf
+Dockerfile* text eol=lf
+
+# Binary files: never touch them.
+*.png binary
+*.ico binary
