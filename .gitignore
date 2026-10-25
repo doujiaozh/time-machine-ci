@@ -1,0 +1,7 @@
+node_modules/
+*.log
+time-machine-output/
+results/
+.tmp/
+.DS_Store
+Thumbs.db

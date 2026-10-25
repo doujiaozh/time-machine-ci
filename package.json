@@ -1,0 +1,30 @@
+{
+  "name": "time-machine-ci",
+  "version": "0.1.0",
+  "description": "Test your code against the ghosts of runtimes past — generates a Docker Compose era-matrix (Ubuntu 14.04/Python 3.4 → Ubuntu 22.04/Python 3.10) for any GitHub repo.",
+  "license": "MIT",
+  "author": "time-machine-ci contributors",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "time-machine-ci": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/run-tests.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "ci",
+    "docker",
+    "docker-compose",
+    "legacy",
+    "compatibility",
+    "regression",
+    "era-matrix",
+    "time-machine",
+    "testing"
+  ]
+}
